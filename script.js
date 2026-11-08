@@ -1,4 +1,4 @@
-
+alert('Veja os exercicios);
 // nome
 let nome = document.querySelector('#nome');
 let botao = document.querySelector('#apresentar');
