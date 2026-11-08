@@ -1,4 +1,4 @@
-alert('Melissa, suicidio é a opção');
+
 // nome
 let nome = document.querySelector('#nome');
 let botao = document.querySelector('#apresentar');
