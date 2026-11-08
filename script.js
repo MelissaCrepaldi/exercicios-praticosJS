@@ -20,21 +20,6 @@ botao.addEventListener('click', mostrarNome)
 
 function mostrarNome() {
     nomeResultado.textContent = `Meu nome é ${nome.value}!`;
-
-    if (nome.value === 'Melissa') {
-        alert('Melissa, suicidio é a opção');
-        nomeResultado.textContent = `Melissa, elimine yourself`;
-    }
-
-    if (nome.value === 'suicidio') {
-        alert('sim, eu, suicidio sou a opção');
-         nomeResultado.textContent = `escolha como se matar`;
-    }
-
-    if (nome.value === 'Anderson') {
-        alert('pq vc tem o msm nome do amor da minha vida?');
-         nomeResultado.textContent = `fica entre nós, eu amo MUUUUUUUUITO ele <3, palavras jamais vão expressar o quanto eu amo ele, mas eu amo ele, e se ele ler isso, eu te amo amor da minha vida <3 `;
-    }
 }
 
 somar.addEventListener('click', somarNumeros)
@@ -42,11 +27,6 @@ somar.addEventListener('click', somarNumeros)
 function somarNumeros() {
     let soma = Number(num1Soma.value) + Number(num2Soma.value);
     resultadoSoma.textContent = `O resultado da soma é: ${soma}`;
-
-    if (soma == 67) {
-        alert('SIX SEVEEEEEEEEEEN');
-        resultadoSoma.textContent = `O resultado da soma é SIIIIX SEEEEVEEEEEN >:D (rir para nao chorar)`;
-    }
 }
 
 subtrair.addEventListener('click', subtrairNumeros);
@@ -54,9 +34,4 @@ subtrair.addEventListener('click', subtrairNumeros);
 function subtrairNumeros() {
     let subtracao = Number(num1Sub.value) - Number(num2Sub.value);
     resultadoSub.textContent = `O resultado da subtração é: ${subtracao}`;
-
-    if (subtracao == 67) {
-        alert('SIX SEVEEEEEEEEEEN');
-        resultadoSub.textContent = `O resultado da subtração é SIIIIX SEEEEVEEEEEN >:D`;
-    }
 }
